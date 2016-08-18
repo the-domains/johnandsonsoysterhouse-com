@@ -1,8 +1,20 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.5734767
 color:
   saturation: 0.9628033
-  lightness: 0.2240143
-  brandStrength: 0.8064516
+  brandStrength: 0.8369176
+  lightness: 0.7562724
   brandColors:
     - '#0D0C11'
     - '#F3F8F4'
@@ -10,5 +22,5 @@ color:
     - '#BD8107'
     - '#A34F07'
   rhythmicContrast: 0.9505072
-typography_spectrum: 0.5358423
+layout_spectrum: 1
 name: Johnandsonsoysterhouse.com
